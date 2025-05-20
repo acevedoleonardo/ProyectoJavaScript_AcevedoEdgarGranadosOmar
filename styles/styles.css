@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "letrica1";
+    src: url(../fonts/Future\ Glitch.ttf);
+}
+@font-face {
+    font-family: "letrica2";
+    src: url(../fonts/CAMPUS\ PERSONAL\ USE.ttf);
+}
+body {
+    margin: 0;
+    background: url(../images/F1Sol\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.navigation-bar{
+    width: 100%;
+    height: 89px;
+    background-color: red;
+    opacity: 0.8;
+}
+.logo{
+    margin-left: 45%;
+    width: 242.59px;
+    height: 137.46px;
+    margin-top: -10px;
+    opacity: 1;
+}
+.rectangle-login{
+    display: flex;
+    width: 598px;
+    height: 574px;
+    background-color: rgba(18, 8, 50, 0.5);
+    margin-top: 140px;
+    margin-left: 130px;
+    border-radius: 60px;
+    border: 5px solid #9D0000;
+}
+.circulito{
+    position: absolute;
+    width: 200px;
+    height: 183px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 200px;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 5px solid #741414;
+}
+.head-user{
+    width: 82px;
+    height: 81px;
+    background-color: #741414;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: -130px;
+    border: 2px solid black;
+}
+.body-user{
+    width: 130px;
+    height: 65px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #741414;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.info-login{
+    position: absolute;
+    margin-top: 200px;
+}
+.info-login div{
+    width: 46px;
+    height: 55px;
+    margin-left: 59px;
+    background-color: black;
+}
+input{
+    position: absolute;
+    width: 434px;
+    margin-left: 48px;
+    height: 50px;
+    font-family: "letrica1";
+    font-size: 36px;
+}
+input::placeholder{
+    color: black;
+    font-family: "letrica1";
+}
+.info-login p{
+    position: absolute;
+    color: white;
+    margin-top: -38px;
+    margin-left: 2px;
+    font-size: 95px;
+}
+.loguear{
+    width: 260px;
+    height: 51px;
+    border-radius: 50px;
+    background-color: #741414;
+    border: none;
+    margin-left: 170px;
+    color: white;
+}
+.forgot-create{
+    display: flex;
+    margin-top: 480px;
+    font-family: "letrica1";
+    font-size: 24px;
+}
+.forgot-pass{
+    margin-left: 50px;
+    -webkit-text-stroke: 1.5px black;
+    color: white;
+}
+.sign{
+    margin-left: 150px;
+    color: white;
+    -webkit-text-stroke: 1.5px red;
+}
+.welcome{
+    position: absolute;
+    width: 1000px;
+    margin-left: 800px;
+    font-size: 120px;
+    margin-top: -750px;
+    text-align: center;
+    font-family: "letrica2";
+    color: white;
+    stroke: black;
+    text-shadow: 5px  5px 5px black,
+               5px  5px 5px black,
+              -5px  -5px 5px black,
+               -5px -5px 5px black;
+}
+.welcome span{
+    overflow: hidden;
+    margin-left: 40px;
+}
