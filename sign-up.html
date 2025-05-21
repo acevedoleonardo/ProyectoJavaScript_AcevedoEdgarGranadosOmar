@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F1</title>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/sign-up.css">
 </head>
 <body>
     <div>
@@ -16,12 +16,23 @@
                 <div class="body-user"></div>
                 <div class="head-user"></div>
             </div>
+            <div class="titulito">
+                <p>
+                    SIGN UP
+                </p>
+            </div>
             <div class="info-login">
+                <br>
+                <br>
                 <form id="formulario">
                     <div>
-                        <input type="text" id="user" placeholder="USER NAME" required>
+                        <input type="text" id="user"placeholder="USER NAME" required>
                     </div>
                     <br>
+                    <br>
+                    <div>
+                        <input type="email" id="email" placeholder="EMAIL" required>
+                    </div>
                     <br>
                     <br>
                     <div>
@@ -29,11 +40,14 @@
                     </div>
                     <br>
                     <br>
-                    <input class="loguear" type="submit" value="LOGIN">
+                    <div>
+                        <input type="text" id="confirm-password" placeholder="CONFIRM PASSWORD" required>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <input class="create" type="submit" value="CREATE ACCOUNT">
                 </form>
-            </div>
-            <div class="forgot-create">
-                <p><a><span class="forgot-pass">FORGOT PASSWORD?</span></a><a href="./sign-up.html"><span class="sign">SIGN UP</span></a></p>
             </div>
         </div>
         <div class="welcome">
@@ -44,5 +58,5 @@
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/axios@1.6.5/dist/axios.min.js"></script>
-<script src="./js/login.js"></script>
+<script src="./js/sign-up.js"></script>
 </html>

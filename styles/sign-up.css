@@ -28,7 +28,7 @@ body {
 .rectangle-login{
     display: flex;
     width: 598px;
-    height: 574px;
+    height: 727px;
     background-color: rgba(18, 8, 50, 0.5);
     margin-top: 140px;
     margin-left: 130px;
@@ -44,6 +44,17 @@ body {
     border-radius: 50%;
     margin-top: -50px;
     border: 5px solid #741414;
+}
+.titulito{
+    margin-left: auto;
+    margin-right: auto;
+}
+.titulito p{
+    margin-top: 150px;
+    font-size: 64px;
+    color: white;
+    font-family: "letrica1";
+    -webkit-text-stroke: 2px red;
 }
 .head-user{
     width: 82px;
@@ -94,13 +105,13 @@ input::placeholder{
     margin-left: 2px;
     font-size: 95px;
 }
-.loguear{
-    width: 260px;
+.create{
+    width: 390px;
     height: 51px;
     border-radius: 50px;
     background-color: #741414;
     border: none;
-    margin-left: 170px;
+    margin-left: 110px;
     color: white;
 }
 .forgot-create{
@@ -137,7 +148,4 @@ input::placeholder{
 .welcome span{
     overflow: hidden;
     margin-left: 40px;
-}
-a{
-    text-decoration: none;
 }
