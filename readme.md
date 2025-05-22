@@ -4,11 +4,17 @@
 ## Tabla de Contenidos 
 
 
-| Descripcion       | Contenido                             |
-| ----------------- |:-------------------------------------:|
-| Introduccion      | INTRODUCCION                         |
-| Diseno Figma      | [FIGMA](https://acortar.link/rmLuFo)  |
-| Repositorio       | [Github](https://acortar.link/qjOiQM) |
+| Descripcion            | Contenido                             |
+| -----------------------|:-------------------------------------:|
+| Introduccion           | INTRODUCCION                          |
+| Diseno Figma           | [FIGMA](https://acortar.link/rmLuFo)  |
+| Repositorio            | [Github](https://acortar.link/qjOiQM) |
+| Tecnologias            | Frontend                              |
+| Gestion de Datos       | Json Server y Fetch API               |
+| Funcionalidades CRUD   | Agregar, editar, eliminar y buscar    |
+| Estructura de Datos    | Circuitos, Pilotos y Escuderias       |
+| Conclusiones           | Logros del Proyecto 
+
 
 
 # INTRODUCCION 
@@ -24,7 +30,7 @@ sobre circuitos, pilotos y vehiculos de tal competicion.
 El sitio web esta construido utilizando HTML5 como estructura
 principal, CSS3 para darle manejo a los estilos y JavaScript 
 para garantizar el manejo de datos y un diseno
-moderno y responsivo. 
+moderno. 
 
 ## Diseno de Figma 
 
@@ -40,10 +46,45 @@ Link [Maquetacion](https://www.figma.com/design/1zWR3HFWxgMAT834MkzFWG/ProyectoJ
 
 ## Tecnologias Utilizadas
 
+En el proyecto actual desarrollamos Frontend. 
+
 - HTML5: Estructura de la pagina.
 - CSS3: Estilos de la Pagina. 
 - JavaScript: Manejo y funcionalidad de la pagina.
 - Figma: Diseno y prototipado de la pagina. 
+
+
+## Gestion de Datos 
+
+1. Uso de JSON Server para la persistencia de datos. 
+2. Fetch API, integracion de una API REST. 
+
+## Funcionalidades CRUD 
+
+Para este punto la funcion CRUD como sus siglas en ingles lo indican
+(Create, Read, Update, Delete) que al español seria (Agregar, Editar,
+actualizar, eliminar). 
+
+Se le agrega estas funcionalidades para tener un control mas detallado
+de la data para el manejo de la infomacion de Formula 1. 
+
+## Estructura de Datos 
+
+Se desarrolla dentro del sitio web unos modulos que mostrara al usuario
+informacion referente a Pilotos, Circuitos y Escuderas, en donde se guardara esa informacion en JSON Server y con el consumo de APIS
+se podra visualizar mas data. De esta manera el usuario tendra una visualizacion clara de toda la estructura de datos. 
+
+En el caso del administrador podra disfrutar de las funcionalidade 
+CRUD y tener accceso a los datos directamente.  
+
+## Conclusiones 
+
+Para el presente proyecto se desarrolla las habilidades adquiridas
+con la ruta JavaScript, en donde se implemento HTML5 para una 
+estructura web solida, CSS3 para crear estilos y darle una pincelada
+de diseño personificada y posterior JavaScript el lenguaje anfitrion
+del diseño web, que permite crear interacciones dinamicas, y tener mas control del sitio web mejorando sa la experiencia del usuario. 
+
 
 ## Desarrollado por: 
 
@@ -51,3 +92,5 @@ Link [Maquetacion](https://www.figma.com/design/1zWR3HFWxgMAT834MkzFWG/ProyectoJ
 - Edgar Acevedo 
 
 Campuslands @2025. 
+
+
