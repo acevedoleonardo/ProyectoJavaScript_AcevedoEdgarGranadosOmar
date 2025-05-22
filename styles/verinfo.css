@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "letrica1";
+    src: url(../fonts/CAMPUS\ PERSONAL\ USE.ttf);
+}
+@font-face {
+    font-family: "letrica2";
+    src: url(../fonts/Future\ Glitch.ttf);
+}
+@font-face {
+    font-family: "letrica3";
+    src: url(../fonts/AlumniSansRegular.ttf);
+}
+body {
+    background: url(../images/FondoDePantalla\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.navigation-bar{
+    width: 100%;
+    height: 89px;
+    background-color: red;
+    opacity: 0.8;
+}
+.logo{
+    margin-left: 45%;
+    width: 242.59px;
+    height: 137.46px;
+    margin-top: -10px;
+    opacity: 1;
+}
+.simulator{
+    width: 1716px;
+    height: 103px;
+    background-color: rgba(19, 20, 63, 0.4);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1.5%;
+    border-radius: 5vw;
+}
+.text-simulator{
+    font-family: "letrica2";
+    font-size: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    opacity: 1;
+    padding-top: 15px;
+}
+#titulitos{
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-evenly;
+}
+#titulitos div{
+    width: 454px;
+    height: 74px;
+}
+#titulito-circuito{
+    background-color: #D9D9D9;
+    text-align: center;
+    border-radius: 2vw;
+    font-family: "letrica2";
+    font-size: 4rem;
+}
+#titulitos p{
+    margin-top: 0vh;
+}
+#titulito-piloto{
+    background-color: #470202;
+    border-radius: 2vw;
+    text-align: center;
+    font-family: "letrica2";
+    font-size: 4rem;
+    color: #FFFFFF;
+}
+#titulito-escuderias{
+    background-color: #FF0000;
+    text-align: center;
+    font-size: 4rem;
+    font-family: "letrica2";
+    border-radius: 2vw;
+}
+#flechas{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    margin-top: 2vh;
+}
+#sections{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 1%;
+}
+#sections div{
+    width: 550px;
+    height: 539px;
+    background-color: #470202;
+    border-radius: 3vw;
+}
+#images-circuitos img{
+    margin-left: 1.5vw;
+    margin-top: 1.2vh;
+}
+#images-circuitos p{
+    text-align: center;
+    font-size: 67.55px;
+    margin-top: 0;
+    transform: rotate(-4deg);
+    color: white;
+    font-family: "letrica2";
+}
+#images-pilotos img{
+    margin-left: 0.9vw;
+    margin-top: 1vh;
+}
+#images-pilotos p{
+    text-align: center;
+    font-size: 67.55px;
+    margin-top: 0;
+    transform: rotate(-4deg);
+    margin-top: -1.8%;
+    font-family: "letrica2";
+    color: white;
+}
+#images-escuderias img{
+    margin-left: 1.3vw;
+    margin-top: 2.5vh;
+}
+#images-escuderias p{
+    text-align: center;
+    font-size: 67.55px;
+    margin-top: -1%;
+    transform: rotate(-4deg);
+    font-family: "letrica2";
+    color: white;
+}
+#sections p:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    margin-top: 2vh;
+    height: 59px;
+    background-color: #525252;
+}
+footer p{
+    text-align: center;
+    font-family: "letrica3";
+    font-size: 2rem;
+    padding-top: 1vh;
+}

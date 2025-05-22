@@ -6,11 +6,27 @@ function añadir(user,email,password){
         "Contrasena":password,
         "Tipo":"User"
     }
-    axios.post(link, datos)
-    .then(
-        alert("cuenta creada con exito"),
-        window.location.href = `../index.html`
-    )
+    axios.get(link)
+    .then((response)=>{
+        let confirm_user = ``
+        let confirm_correo = ``
+        for (let i =0; i<response.data.length;i++){
+            if (response.data[i].Usuario==user || response.data[i].Correo==email){
+                confirm_user = `no aprobado`
+                confirm_correo = `no aprobado`
+            }
+        }
+        if (confirm_correo !== `` && confirm_user!== ``){
+        alert("Correo o Usuario repetido")
+        }
+        else{
+            axios.post(link, datos)
+            .then(
+                alert("cuenta creada con exito"),
+                window.location.href = `../index.html`
+            )
+        }
+    })
 }
 document.getElementById("formulario").addEventListener("submit", function(e){
     e.preventDefault()

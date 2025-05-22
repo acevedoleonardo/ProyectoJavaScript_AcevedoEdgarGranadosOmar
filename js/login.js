@@ -11,7 +11,7 @@ function iniciar(user,password){
                     window.location.href = "../menuadmin.html"
                 }
                 else{
-                    window.location.assign("../menuuser.html")
+                    window.location.assign("../verinfo.html")
                 }
             }
         }
