@@ -1,4 +1,4 @@
-# Piroyecto JavaScript 
+# Proyecto JavaScript 
 
 
 ## Tabla de Contenidos 
