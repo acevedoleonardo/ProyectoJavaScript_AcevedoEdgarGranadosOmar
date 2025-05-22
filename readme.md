@@ -6,7 +6,7 @@
 
 | Descripcion       | Contenido                             |
 | ----------------- |:-------------------------------------:|
-| Introduccion      | #INTRODUCCION                         |
+| Introduccion      | INTRODUCCION                         |
 | Diseno Figma      | [FIGMA](https://acortar.link/rmLuFo)  |
 | Repositorio       | [Github](https://acortar.link/qjOiQM) |
 
@@ -50,4 +50,4 @@ Link [Maquetacion](https://www.figma.com/design/1zWR3HFWxgMAT834MkzFWG/ProyectoJ
 - Omar Granados 
 - Edgar Acevedo 
 
-
+Campuslands @2025. 
