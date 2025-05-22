@@ -1,7 +1,7 @@
-#Piroyecto JavaScript 
+# Piroyecto JavaScript 
 
 
-##Tabla de Contenidos 
+## Tabla de Contenidos 
 
 
 | Descripcion       | Contenido                             |
@@ -11,7 +11,7 @@
 | Repositorio       | [Github](https://acortar.link/qjOiQM) |
 
 
-#INTRODUCCION 
+# INTRODUCCION 
 
 El presente proyecto tiene como objetivo desarrollar
 una simulacion interactiva de Formula 1 basada en 
@@ -38,7 +38,7 @@ En el siguiente enlace podran visualizar el diseno con mas detalle...
 Link [Maquetacion](https://www.figma.com/design/1zWR3HFWxgMAT834MkzFWG/ProyectoJavaScript_AcevedoEdgarGranadosOmar?node-id=0-1&t=6dQhZIIM3w6UBgAU-1) 
 
 
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML5: Estructura de la pagina.
 - CSS3: Estilos de la Pagina. 
