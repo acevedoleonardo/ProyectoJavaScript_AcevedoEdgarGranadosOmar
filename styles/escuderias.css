@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "letrica1";
+    src: url(../fonts/CAMPUS\ PERSONAL\ USE.ttf);
+}
+@font-face {
+    font-family: "letrica2";
+    src: url(../fonts/Future\ Glitch.ttf);
+}
+@font-face {
+    font-family: "letrica3";
+    src: url(../fonts/AlumniSansRegular.ttf);
+}
+body {
+    background: url(../images/FondoDePantalla\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+.navigation-bar{
+    width: 100%;
+    height: 14.858096828046744vh;
+    background-color: red;
+    opacity: 0.8;
+}
+.logo{
+    margin-left: 45%;
+    width: 17.759150805270863vw;
+    height: 22.948247078464107vh;
+    margin-top: -1.669449081803005vh;
+    opacity: 1;
+}
+footer{
+    margin-top: 17vw;
+    height:  9.84974958263773vh;
+    background-color: #525252;
+}
+footer p{
+    text-align: center;
+    font-family: "letrica3";
+    font-size: 3vw;
+    padding-top: 1vh;
+}
+#mostrar-escuderias{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10vw;
+    width: auto;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+.imagencita{
+    width: 13.021vw;
+    height:  20vh;
+}
+#titulo{
+    width: 40.849194729136165vw;
+    height: 12.353923205342237vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #470202;
+    color: white;
+    margin-top: 5vh;
+    border-radius: 5vw;
+    font-size: 4.64vw;
+    font-family: "letrica2";
+}
+#mostrar-info{
+    margin-top: -10vh;
+    width: 40%;
+    height: 150vh;
+    display: none;
+    position: absolute;
+    background-color: rgba(86, 28, 28, 1);
+    border-radius: 5vw;
+}
+#mostrar-info img{
+    margin-left: 15vw;
+}
+#mostrar-info p{
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    font-family: "letrica3";
+}
+.loguito{
+    width: 10vw;
+    height: 10vh;
+
+}
+.banderita{
+    width: 10vw;
+    height: 10vh;
+}

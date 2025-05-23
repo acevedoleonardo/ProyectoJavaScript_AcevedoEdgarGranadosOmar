@@ -18,15 +18,15 @@ body {
 }
 .navigation-bar{
     width: 100%;
-    height: 89px;
+    height: 14.858096828046744vh;
     background-color: red;
     opacity: 0.8;
 }
 .logo{
     margin-left: 45%;
-    width: 242.59px;
-    height: 137.46px;
-    margin-top: -10px;
+    width: 17.759150805270863vw;
+    height: 22.948247078464107vh;
+    margin-top: -1.669449081803005vh;
     opacity: 1;
 }
 .simulator{
@@ -145,13 +145,13 @@ a{
     text-decoration: none;
 }
 footer{
-    margin-top: 2vh;
-    height: 59px;
+    margin-top: 17vw;
+    height:  9.84974958263773vh;
     background-color: #525252;
 }
 footer p{
     text-align: center;
     font-family: "letrica3";
-    font-size: 2rem;
+    font-size: 3vw;
     padding-top: 1vh;
 }
