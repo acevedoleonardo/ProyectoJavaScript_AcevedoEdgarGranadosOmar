@@ -8,10 +8,10 @@ function iniciar(user,password){
             if(Response["data"][i]["Usuario"]==user && Response["data"][i]["Contrasena"]){
                 console.log("correctos")
                 if( Response["data"][i]["Tipo"]=="Admin"){
-                    window.location.href = "../menuadmin.html"
+                    window.location.href = "https://acevedoleonardo.github.io/ProyectoJavaScript_AcevedoEdgarGranadosOmar/verinfo.html"
                 }
                 else{
-                    window.location.assign("../verinfo.html")
+                    window.location.assign("https://acevedoleonardo.github.io/ProyectoJavaScript_AcevedoEdgarGranadosOmar/verinfo.html")
                 }
             }
         }
