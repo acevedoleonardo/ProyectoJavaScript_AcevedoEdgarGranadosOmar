@@ -5,7 +5,7 @@ function iniciar(user,password){
         console.log(Response)
         console.log(Response["data"])
         for (let i = 0; i<Response["data"].length;i++){
-            if(Response["data"][i]["Usuario"]==user && Response["data"][i]["Contrasena"]){
+            if(Response["data"][i]["Usuario"]==user && Response["data"][i]["Contrasena"]==password){
                 console.log("correctos")
                 if( Response["data"][i]["Tipo"]=="Admin"){
                     window.location.href = "https://acevedoleonardo.github.io/ProyectoJavaScript_AcevedoEdgarGranadosOmar/verinfo.html"
