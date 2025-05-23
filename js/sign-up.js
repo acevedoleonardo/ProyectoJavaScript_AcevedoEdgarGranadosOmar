@@ -4,7 +4,7 @@ function añadir(user,email,password){
         "Usuario":user,
         "Correo":email,
         "Contrasena":password,
-        "Tipo":"User"
+        "Tipo":"Usuario"
     }
     axios.get(link)
     .then((response)=>{
